@@ -1,0 +1,34 @@
+body{
+    background-color: #45A29E;
+}
+.nav-link{
+    position: relative;
+}
+.nav-link::after{
+    content: "";
+    opacity:0;
+    transition: all 0.3s;
+    height: 3px;
+    width: 100%;
+    background-color: #45A29E;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.nav-link:hover::after{
+    opacity: 1;
+}
+
+.line{
+    min-height: 2px;
+    background-color: #45A29E;
+    color: #45A29E;
+}
+.offcanvas-header{
+    color: #45A29E;
+}
+
+label{
+    font-size: large;
+    font-weight: bold;
+}
